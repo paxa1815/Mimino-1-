@@ -1,0 +1,328 @@
+/* Обнуление */
+*,
+*::before,
+*::after {
+	padding: 0;
+	margin: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+a {
+	text-decoration: none;
+}
+ul,
+ol,
+li {
+	list-style: none;
+}
+img {
+	vertical-align: top;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+html,
+body {
+	height: 100%;
+	line-height: 1;
+	background: #fff;
+	font-size: 14px;
+	color: #626262;
+	font-weight: 400;
+	font-family: Playfair + Display;
+}
+/* ---------------------------------------------------------------------------- */
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+	display: flex;
+	flex-direction: column;
+}
+/* ---------------------------------------------------------------------------- */
+._container {
+	max-width: 1200px;
+	padding: 0px 15px;
+	margin: 0px auto;
+}
+
+/* ................................Шапка............................................ */
+.header {
+	position: absolute;
+	width: 100%;
+	left: 0;
+	top: 0;
+	z-index: 1;
+}
+.header__container {
+	display: flex;
+	min-height: 23px;
+	align-items: center;
+	justify-content: space-between;
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 15px;
+	width: 1063px;
+}
+.header__logo {
+	font-family: Inconsolata;
+	font-size: 30px;
+	font-weight: 400;
+	letter-spacing: 6px;
+	text-align: center;
+	line-height: 120%;
+	color: #000;
+	text-transform: uppercase;
+	margin: 0px 371px 0px 0px;
+}
+.header__logo:active {
+	color: red;
+}
+.header__menu {
+}
+.menu {
+	padding: 5px 0;
+}
+.menu__list {
+	flex-wrap: wrap;
+	display: flex;
+}
+.menu__item {
+	margin: 0px 0px 0px 60px;
+}
+.menu__link {
+	font-family: PlayfairDisplay;
+	line-height: 13%;
+	color: #626262;
+	text-transform: uppercase;
+}
+.menu__link:hover {
+	text-decoration: underline;
+}
+
+/* ................................. */
+.page {
+	flex: 1 1 auto;
+}
+/* ............................... */
+
+.page {
+}
+.page__main-block {
+}
+.main-block {
+}
+.main-block__container {
+}
+
+.main-block__image {
+}
+._ibg {
+	width: 1200px;
+	height: 872px;
+	top: 163px;
+	left: 69px;
+	opacity: 0.5;
+}
+.image-horse {
+	max-height: 972px;
+}
+
+/* .......................................... */
+
+.page__photodiary {
+}
+.photodiary-block {
+	max-width: 1200px;
+	padding: 0px 15px;
+	margin: 0px auto;
+}
+.photodiary__container {
+	padding: 100px 0px 0px 151px;
+}
+.photodiary-item {
+	font-weight: 300;
+	text-transform: uppercase;
+	font-family: Ubuntu;
+	line-height: 120%;
+	color: #b4ad9e;
+}
+.photodiary-item:hover {
+	text-decoration: underline;
+}
+.photodiary__title-container {
+	margin: 28px 0px 0px 0px;
+}
+.photodiary__title {
+	font-size: 30px;
+	color: #626262;
+}
+.photodiary__title:hover {
+	text-decoration: underline;
+}
+.photodiary__text {
+	padding: 34px 158px 52px 0px;
+	line-height: 120%;
+	text-align: left;
+	text-align: justify;
+}
+.comment {
+	font-weight: 300;
+	font-family: Ubuntu;
+	color: #b4ad9e;
+	text-transform: uppercase;
+}
+.comment:hover {
+	text-decoration: underline;
+}
+
+/* ...................................... */
+
+.page__lifestyle {
+}
+.lifestyle-block {
+}
+.lifestyle__container {
+}
+.container__images {
+	display: flex;
+	margin: 135px 0px 0px 151px;
+}
+.colum__angel {
+	padding: 0px 60px 0px 0px;
+}
+.colum__boy {
+}
+.lifestyle__item {
+	display: flex;
+	padding: 32px 0px 0px 0px;
+	font-family: Ubuntu;
+	font-weight: 300;
+	color: #b4ad9e;
+	text-transform: uppercase;
+}
+.lifestyle__item:hover {
+	text-decoration: underline;
+}
+.lifestyle__title-container {
+	margin: 28px 0px 0px 0px;
+}
+.lifestyle__title {
+	font-size: 30px;
+	color: inherit;
+}
+.lifestyle__title:hover {
+	text-decoration: underline;
+}
+.lifestyle__text {
+	margin: 34px 0px 0px 0px;
+	line-height: 120%;
+	max-width: 414px;
+	text-align: justify;
+}
+
+/* ....................................... */
+.page__sing {
+}
+.sing-block {
+	margin: 60px 0px 0px 0px;
+}
+.sing__container {
+	width: 1201px;
+	height: 287px;
+	background-color: #f0f0f0;
+}
+
+.container-sing {
+	text-align: center;
+	padding: 73px 0px 0px 0px;
+}
+.sing {
+	font-size: 30px;
+	color: #333;
+	line-height: 120%;
+}
+.sing:hover {
+	text-decoration: underline;
+}
+.enter__container {
+	padding: 83px 0px 0px 0px;
+	text-align: center;
+	color: inherit;
+}
+.enter__container:hover {
+	text-decoration: underline;
+}
+.enter-link {
+	color: inherit;
+}
+.enter-link span {
+	padding: 0px 196px 0px 0px;
+	background: url("../img/icon/ios7-arrow-thin-right_icon-icons.com_50346.ico") right no-repeat;
+}
+
+.bottom__load {
+	margin: 165px 517px 0px 519px;
+	padding: 15px 34px 15px;
+	width: 164px;
+	height: 60px;
+	border: solid 1px #626262;
+}
+.bottom__load:hover {
+	background-color: silver;
+	color: slateblue;
+}
+.load {
+	font-size: 20px;
+	color: inherit;
+	line-height: 120%;
+}
+.load:hover {
+	text-decoration: underline;
+}
+
+/* ........................................... */
+
+.footer {
+	margin: 1370px 0px 0px 0px;
+}
+.footer__main {
+	max-height: 97px;
+}
+.sing__container {
+	max-width: 1200px;
+	padding: 0px 15px;
+	margin: 0px auto;
+}
+.footer__menu {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: space-between;
+}
+.menu-footer__list {
+	margin: 40px 0px 0px 150px;
+}
+.menu-footer__link {
+	margin: 0px 17px 0px 0px;
+	color: #000;
+}
+.menu-footer__link:hover {
+	text-decoration: underline;
+}
+.menu-footer__link-item {
+	padding: 0px 0px 0px 624px;
+	color: #000;
+	line-height: 1.71;
+}
+.menu-footer__link-item:hover {
+	text-decoration: underline;
+}
+.social__item {
+	margin: 0px 0px 0px 18px;
+}
